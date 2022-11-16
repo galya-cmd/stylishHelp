@@ -1,0 +1,57 @@
+.nav{
+    background-image: url(assets/images/bg-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    font-family:'Oranienbaum';
+    
+    box-sizing: border-box;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    color: white;
+}
+/* .nav_blok{
+   align-items: flex-start;
+    
+     min-height: 100vh; 
+} */
+.nav_blok li{
+    list-style-type: none;
+
+}
+.nav_blok a{
+    text-decoration: none;
+  align-items: flex-start;
+        flex-direction:row;
+        color: white;
+        
+}
+
+.nav__blok-nav{
+    display: flex;
+}
+
+.nav__blok-nav2{
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: flex-end; */
+    
+}
+.nav__blok-nav li{
+    margin-right: 10px;
+}
+.nav__blok-logo{
+display: flex;
+}
+.nav__blok-logo-a a{
+    
+    color: rgb(148, 133, 50);
+}
+.nav__blok-logo-a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 15px;
+
+}
