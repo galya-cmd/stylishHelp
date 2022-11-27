@@ -1,6 +1,13 @@
 import "./Header.css";
 import logo from './assets/images/logo-new.png';
-import ikonVk from './assets/images/1438423986_vk_3.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faVk } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
+
+
 
 function Header (){
     return(
@@ -27,9 +34,11 @@ contacts">Контакты</a></li>
   {/* <p>+7(499)3502335</p> */}
  </div>
 
-        <img src={ikonVk} title="#"></img>
- <img src='https://icons8.ru/icon/HoSTAfO1xgJG/facebook' title="#"></img>
- <img src='https://icons8.ru/icon/HoSTAfO1xgJG/facebook' title="#"></img>
+        <a href="#"><FontAwesomeIcon icon={faInstagram} className='icon'/><a/>
+</a>
+<a href="#"><FontAwesomeIcon icon={faVk} className='icon'/></a>
+<a href="#"><FontAwesomeIcon icon={faFacebook} className='icon'/></a>
+ 
 
         </div>
         <img src={logo} alt='logo' className="nav__blok-logo"></img>

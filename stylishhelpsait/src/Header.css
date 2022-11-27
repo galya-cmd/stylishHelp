@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed; 
+    /* background-attachment: fixed;  */
     font-family:'Oranienbaum';
     height: auto;
     box-sizing: border-box;
@@ -54,4 +54,11 @@ display: flex;
     align-items: flex-start;
     padding-bottom: 15px;
 
+}
+.highlight{
+    background-color: white;
+}
+.icon{
+    color: white;
+    font-size: 18px;
 }
