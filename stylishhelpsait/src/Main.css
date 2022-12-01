@@ -6,9 +6,10 @@ table{
     /* border-spacing: 10px;  */
     border-radius: 3px;
      border: 1px solid #eee; 
-
+     font-family: 'Anek Devanagari', sans-serif;
     border-collapse: collapse;
      background: #fdfdfd;
+     font-family: 'Oranienbaum', serif;
     font-size: 14px;
     width: auto; 
   }
@@ -20,4 +21,34 @@ table{
   th{
     
     background-color: aquamarine;
+  }
+  .main__blok{
+    display: flex;
+    width: 50%;
+  }
+  .price{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .price__list:hover{
+    transform: scale(1.1);
+    background-color: gray;
+  }
+  .price__list{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid grey;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .price__button{
+    background-color: red;
+    color: white;
+    border: 0;
+    
+    height: 35px;
   }

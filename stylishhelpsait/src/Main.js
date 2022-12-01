@@ -1,5 +1,6 @@
 import form from './assets/images/form.jpg'
 import './Main.css';
+import book from './assets/images/book.png';
 
 function Main (){
     return (
@@ -15,7 +16,7 @@ function Main (){
 <p>Ответы будут в пределах часа в рабочее время</p>
 <p>Усли мы не получаете ответ за 1час, мы продлеваем время действия услуги на 24 часа</p>
 <p>А если нужна помощь в выходной день?</p>
-<p>
+<p className='main__blok'>
 Напишите об этом как можно раньше, но не менее , чем за 24 часа. Получите подтверждение стилиста. Если вы отправляетесь, к примеру, на шопинг в выходной день и вам нужно чтобы стилист был с вами на связи, такой вариант возможен по предварительной договоренности со стилистом.
 </p>
 
@@ -52,6 +53,51 @@ function Main (){
 
 
 </table>
+<div>
+<img src={book} alt='book'></img>
+</div>
+<h2>Пакет услуг</h2>
+
+<div className='price'>
+    <div className='price__list'>
+    <p>Пакет</p>
+        <h3>"Попробовать"</h3>
+        <span>Срок:</span>
+        <strong>В пределах 24 часов</strong>
+        <p>  Вопросов/комплектов на оценку:</p>
+      <p> <strong>5 ваших луков или 5 вопросов</strong></p>
+       
+       <span>890р.</span>
+        <p><strong>499р.</strong></p>
+        <button className='price__button'>Заказать</button>
+       
+    
+    </div>
+    <div className='price__list'>
+    <p>Пакет</p>
+        <h3>" 1 день"</h3>
+        <span>Срок:</span>
+        <strong>В пределах 24 часов</strong>
+        <p>  Вопросов/комплектов на оценку:</p>
+      <p> <strong>до 100</strong></p>
+       
+        <span>3900р.</span>
+        <p><strong>2900р.</strong></p>
+        <button className='price__button'>Заказать</button>
+        </div>
+    <div className='price__list'>
+        <p>Пакет</p>
+        <h3>" 1 месяц"</h3>
+        <span>Срок:</span>
+        <strong>В течение месяца</strong>
+        <span>  Вопросов/комплектов на оценку:</span>
+       <strong>неограниченно</strong>
+       
+        <span>11900р.</span>
+        <p><strong>9900р.</strong></p>
+        <button className='price__button'>Заказать</button>
+        </div>
+</div>
         </>
     )
 }
