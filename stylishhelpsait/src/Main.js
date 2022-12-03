@@ -1,6 +1,10 @@
 import form from './assets/images/form.jpg'
 import './Main.css';
 import book from './assets/images/book.png';
+import photo1 from './assets/images/stylishhelpchat1.jpg';
+import photo2 from './assets/images/helpchat2.jpg';
+import photo3 from './assets/images/helpchat3.jpg';
+import photo4 from './assets/images/helpchat4.jpg';
 
 function Main (){
     return (
@@ -97,6 +101,28 @@ function Main (){
         <p><strong>9900р.</strong></p>
         <button className='price__button'>Заказать</button>
         </div>
+        
+</div>
+
+<h2>Как все происходит</h2>
+
+<div className='forum__container'>
+    <div className='forum__container-list'>
+        <img src={photo1} alt='photo-chat'></img>
+        <p>Клиентка просит стилиста помочь выбрать одну из курток милитари</p>
+    </div>
+    <div className='forum__container-list'>
+    <img src={photo2} alt='photo-chat'></img>
+    <p>Стилист запрашивант дополнительные фотографии, для того чтобы выбор был 100% удачным</p>
+    </div>
+    <div className='forum__container-list'>
+    <img  src={photo3} alt='photo-chat'></img>
+    <p>Стилист анализирует вещи с учетом уже имеющихся вещей клиентки и помогает сделать правильный выбор</p>
+    </div>
+    <div className='forum__container-list'>
+    <img src={photo4} alt='photo-chat'></img>
+    <p>Бдагодарная клиентка делится впечатлениями от полученной услуги и радостью удачных покупок</p>
+    </div>
 </div>
         </>
     )

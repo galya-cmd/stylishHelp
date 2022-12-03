@@ -52,3 +52,21 @@ table{
     
     height: 35px;
   }
+.forum__container{
+  display: flex;
+  flex-direction: column;
+  
+}
+.forum__container-list{
+  display: flex;
+  align-items: center;
+}
+.forum__container-list img{
+  width: 9.37em;
+}
+.forum__container-list p{
+  width: 11.25em;
+  margin-left: 15px;
+  
+
+}
